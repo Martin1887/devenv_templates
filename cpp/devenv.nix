@@ -3,7 +3,7 @@
 {
   packages = with pkgs; [
     cmake
-    clang
     clang-tools
+    valgrind
   ];
 }
