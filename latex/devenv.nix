@@ -16,8 +16,10 @@
   ];
   packages = [
     pkgs.texlab
-    pkgs.ltex-ls
-    pkgs.languagetool
+    # Uncomment if ltex-ls-plus not available system-wide.
+    # Languatetool is bundled with ltex-ls-plus, so probably not needed.
+    # pkgs.ltex-ls-plus
+    # pkgs.languagetool
     pkgs.texlivePackages.latexindent
     pkgs.texlivePackages.latexpand
   ];
