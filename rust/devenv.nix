@@ -2,7 +2,7 @@
 
 {
   enterShell = ''
-    export PATH="$PATH:${pkgs-unstable.vscode-extensions.vadimcn.vscode-lldb}/share/vscode/extensions/vadimcn.vscode-lldb/adapter"
+    export PATH="$PATH:${pkgs.vscode-extensions.vadimcn.vscode-lldb}/share/vscode/extensions/vadimcn.vscode-lldb/adapter"
   '';
   languages.rust.enable = true;
   languages.rust.channel = "stable";
